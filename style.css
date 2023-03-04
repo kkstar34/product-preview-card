@@ -1,0 +1,39 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: 1px solid blue;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.card-left{
+    width: 50%;
+    border: 1px solid green;
+    background-image: url('images/image-product-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.card-right{
+    width: 50%;
+    border: 1px solid black;
+}
